@@ -1,11 +1,7 @@
-interface AboutProps {
-  data: any;
-}
-export default function About(props: AboutProps) {
+export default function About() {
   return (
     <div>
       <p>About page</p>
-      <div> {props.data}</div>
     </div>
   );
 }
